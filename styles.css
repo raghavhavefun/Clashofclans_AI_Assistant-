@@ -1,0 +1,105 @@
+/* ================= GLOBAL ================= */
+
+.stApp {
+    background: radial-gradient(circle at top, #1b2735 0%, #090a0f 70%);
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Hide branding */
+#MainMenu, footer, header {
+    visibility: hidden;
+}
+
+/* ================= HEADER ================= */
+
+.main-header {
+    text-align: center;
+    font-size: 52px;
+    font-weight: 900;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #FFD700, #FF8C00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sub-header {
+    text-align: center;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+/* ================= METRICS ================= */
+
+[data-testid="metric-container"] {
+    background: #1f2a38;
+    border-radius: 12px;
+    padding: 15px;
+    border: 1px solid rgba(255,215,0,0.2);
+}
+
+/* ================= BUTTONS ================= */
+
+.stButton > button {
+    background: linear-gradient(90deg, #ff9900, #ff5500);
+    border-radius: 12px;
+    border: none;
+    font-weight: 700;
+    color: white;
+    transition: 0.3s;
+}
+
+.stButton > button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255,140,0,0.6);
+}
+
+/* ================= PROGRESS ================= */
+
+.stProgress {
+    height: 18px !important;
+}
+
+.stProgress > div > div > div {
+    background: linear-gradient(90deg, #00ffcc, #00ccff) !important;
+    border-radius: 10px;
+}
+
+/* ================= CHAT ================= */
+
+.user-bubble {
+    background: #1e2a38;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.coach-bubble {
+    background: #2d3f55;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+/* ================= AVATAR ================= */
+
+.avatar-container {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* ================= AUDIO PLAYER ================= */
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* ================= RADIO BUTTON FIX ================= */
+
+div[role="radiogroup"] {
+    background: #1f2a38;
+    padding: 10px;
+    border-radius: 10px;
+}
